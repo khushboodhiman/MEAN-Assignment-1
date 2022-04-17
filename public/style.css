@@ -184,3 +184,14 @@ img {
     font-weight: 500;
     font-style: italic;
 }
+
+.contact-hero {
+    margin: 0 auto;
+    width: 300px;
+    background-color: #FAFAFA;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+}

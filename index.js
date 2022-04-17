@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 // Used because without this node doesn't executes static files like css and pngs
-app.use(express.static('public'));
+app.use(express.static(__dirname+'/public'));
 
 // Route with handler which will be executed when route matches the given route in the statement i.e. / or home
 app.get('/', function(req, res){
